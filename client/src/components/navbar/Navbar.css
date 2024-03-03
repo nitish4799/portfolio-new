@@ -1,0 +1,21 @@
+
+img{
+    height: 20px;
+    width: 20px;
+}
+.nitish-logo{
+    height: 60px;
+    width: 210px;
+}
+.navbar{
+    height: 100px;
+}
+
+.wrapper{
+    max-width: 1366px;
+    margin: auto;
+}
+
+.social{
+    gap: 20px;
+}

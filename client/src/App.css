@@ -1,4 +1,29 @@
-.App {
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section{
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body{
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/* .App {
   text-align: center;
 }
 
@@ -11,7 +36,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +61,31 @@
     transform: rotate(360deg);
   }
 }
+
+/* .scrolling-effect {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./components/images/nitish-logos.jpeg");
+  background-position: center;
+  background-size: cover;
+  transform: translateZ(-1px);
+  z-index: -1;
+}
+
+.content-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
