@@ -1,0 +1,20 @@
+.parallax{
+    h1{
+        font-size: 100px;
+    }
+}
+
+.mountains{
+    background-image: url("../images/mountains.png");
+    z-index: 3;
+}
+
+.planets{
+    background-image: url("../images/sun.png");
+    z-index: 2;
+}
+
+.stars{
+    background-image: url("../images/stars.png");
+    z-index: 1;
+}

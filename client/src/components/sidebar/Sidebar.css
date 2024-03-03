@@ -1,9 +1,11 @@
 .bg{
     width: 250px;
+    z-index: 999;
 }
 
 button{
     border-radius: 50% ;
+    z-index: 999;
 }
 
 .Links{
