@@ -1,0 +1,36 @@
+.hero{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+}
+
+.wrapper{
+    max-width: 1366px;
+}
+
+/* .scrollimg{
+    width: 50px;
+} */
+
+.textContainer{
+    h2{
+        font-size: 30px;
+        color: rebeccapurple;
+        letter-spacing: 10px;
+    }
+    h1{
+        font-size: 88px;
+    }
+}
+
+.buttons{
+    button{
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+}
+
+.slidingTextContainer{
+    font-size: 50vh;
+    bottom: -120px;
+    color: #ffffff09
+}
