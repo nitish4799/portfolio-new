@@ -1,0 +1,18 @@
+.hero-helo-text {
+    will-change: transform;
+    transform: translate3d(0vm, 0px, 0px) scale3d(1, 1, 1) rotateX('0deg') rotateY('0deg') rotateZ('0deg') skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.hero-text-content {
+    will-change: transform;
+    transform: translate3d(0vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.perspective-load1{
+    transform: translate3d(0px, 0%, 0vw) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 1;
+}
+
