@@ -18,9 +18,9 @@ function App() {
         <Navbar/>
         <Hero/>
       </section>
-      <section id='Services'><Parallax type="services"/></section>
+      {/* <section id='Services'><Parallax type="services"/></section>
       <Portfolio/>
-      <section id='Contact'><Contact/></section>
+      <section id='Contact'><Contact/></section> */}
       {/* <Test/>
       <Test/> */}
     </>

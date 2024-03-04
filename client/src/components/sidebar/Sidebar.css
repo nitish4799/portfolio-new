@@ -1,6 +1,10 @@
 .bg{
-    width: 250px;
+    width: 400px;
     z-index: 999;
+
+    @media (max-width:738px) {
+        width: 100%;
+    }
 }
 
 button{
