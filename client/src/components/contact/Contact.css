@@ -1,0 +1,41 @@
+.contact{
+    max-width: 1366px;
+    gap: 50px;
+}
+
+.textContainer3{
+    flex: 1;
+
+    h1{
+        font-size: 100px;
+        line-height: 88px;
+    }
+
+    span{
+        font-weight: 300;
+    }
+}
+
+.formContainer{
+    flex:1;
+    position: relative;
+
+    .phoneSvg{
+        stroke: orange;
+        z-index: -1;
+        position: absolute;
+    }
+
+    input, textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+    }
+
+    button{
+        border-radius: 5px;
+    }
+}
+
